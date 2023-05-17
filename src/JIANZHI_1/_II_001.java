@@ -6,6 +6,6 @@ package JIANZHI_1;
  */
 public class _II_001 {
     public int divide(int a, int b) {
-
+        return 1;
     }
 }
