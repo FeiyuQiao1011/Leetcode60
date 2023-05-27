@@ -25,5 +25,6 @@ public class _51 {
         for (int k = l; k <= r; k++) {
             if(i == m + 1) nums[k] = temp[j++];
         }
+        return 1;
     }
 }

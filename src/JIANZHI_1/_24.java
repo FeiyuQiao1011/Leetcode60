@@ -7,13 +7,12 @@ package JIANZHI_1;
  */
 public class _24 {
     public ListNode reverseList(ListNode head) {
-        ListNode cur = head, pre = null;
-        while (cur != null){
-            //暂存
-            ListNode temp = cur.next;
-            cur.next = pre;
-            pre = cur;
-            cur = temp;
+        ListNode curr = head, pre = null;
+        while (curr != null){
+            ListNode temp = curr.next;
+            pre = curr.next;
+            pre = curr;
+            curr = temp;
         }
         return pre;
     }
