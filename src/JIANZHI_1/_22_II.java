@@ -10,5 +10,6 @@ import java.util.HashSet;
 public class _22_II {
     public ListNode detectCycle(ListNode head) {
         HashSet<Integer> integers = new HashSet<>();
+        return null;
     }
 }
